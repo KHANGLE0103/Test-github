@@ -153,10 +153,10 @@ l=[]
 for i in range(n):
     l.append(input())
 print(l)
+max=0
 def getMax(l):
-    max=0
     for i in l:
         if i>max:
-            max=t
+            max=i
             print(max)
 getMax(l)
